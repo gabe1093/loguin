@@ -1,6 +1,6 @@
 function enviar(){
     
-//event.preventDefault()
+event.preventDefault()
 
 const swalWithBootstrapButtons = Swal.mixin({
     customClass: {
