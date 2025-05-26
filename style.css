@@ -1,0 +1,86 @@
+
+.divCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: royalblue;
+    border: solid 1px black;
+    background: linear-gradient(to bottom right, #6495ED, #87CEFA); 
+    height: 2800px;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: navy;
+    margin-bottom: 20px;
+}
+
+
+label {
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 17, 255);
+
+}
+
+input.texto {
+    height: 40px;
+    width: 300px;
+    border: 2px solid rgb(0, 17, 255);
+    border-radius: 30px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input.texto::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+input.texto:focus {
+    border-color: darkblue;
+}
+
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: rgb(0, 17, 255);
+    border: 2px solid black;
+}
+
+.cadastrar{
+    font-size: 100px;
+    }
